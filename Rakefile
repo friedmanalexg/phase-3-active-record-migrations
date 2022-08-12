@@ -9,3 +9,8 @@ task :console do
   # Open a Pry session
   Pry.start
 end
+
+desc "Says stupid stuff"
+task :stupid do
+  puts "eyyy the Earth is flat lmao"
+end
